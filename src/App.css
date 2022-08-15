@@ -1,0 +1,31 @@
+.menu {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #151515;
+  flex-direction: column;
+  padding: 0.6em;
+  margin: 0;
+  color: white;
+}
+.titulo {
+  text-align: center;
+  background-color: #151515;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+  color: aquamarine;
+  margin: 0.5em;
+}
+.fondo {
+  padding: 0em;
+  margin: 0em;
+  background-color: #151515;
+  overflow: hidden;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
