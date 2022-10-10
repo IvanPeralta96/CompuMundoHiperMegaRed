@@ -80,7 +80,7 @@ export default function Create() {
           >
             <option value="elegir">Selecionar id del Empleado</option>
             {APIData.map((data) => {
-              return <option>{data.nombreEmpleado}</option>;
+              return <option>{data.idEmpleado}</option>;
             })}
           </Form.Select>
         </Form.Group>
